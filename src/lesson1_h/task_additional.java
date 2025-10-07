@@ -52,11 +52,18 @@ public class task_additional {
         }
         System.out.println(b);
 
+        //вариант через 3 переменные
         System.out.println("a = " + a + " b = " + b);
         double c;
         c = a;
         a = b;
         b = c;
+        System.out.println("a = " + a + " b = " + b);
+
+        //вариант без добавления переменной
+        a = a + b;
+        b = a - b;
+        a = a - b;
         System.out.println("a = " + a + " b = " + b);
 
         //вариант через XOR(исключающее ИЛИ)
