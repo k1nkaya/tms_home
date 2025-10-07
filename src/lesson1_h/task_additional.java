@@ -66,14 +66,5 @@ public class task_additional {
         a = a - b;
         System.out.println("a = " + a + " b = " + b);
 
-        //вариант через XOR(исключающее ИЛИ)
-        int v = (int)a;
-        int s = (int)b;
-        System.out.println("s = " + s + " v = " + v);
-        v ^= s;
-        s ^= v;
-        v ^= s;
-        System.out.println("s = " + s + " v = " + v);
-
     }
 }
