@@ -8,7 +8,7 @@ a=4*(b+c-1)/2; b и c задаем в коде самостоятельно.
 
 import java.util.Scanner;
 
-public class task1 {
+public class lesson1_home {
     public static void main(String[] args) {
 
         task1();
